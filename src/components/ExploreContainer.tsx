@@ -71,7 +71,6 @@ recordBtn!.addEventListener("click", () => {
         a.href = url;
         a.download = "recording.webm";
         a.click();
-        
         // DOWNLOAD DO ARQUIVO
         Filesystem.writeFile({
         path: 'media/video.webm',
